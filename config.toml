@@ -1,0 +1,81 @@
+baseurl = "https://u-soft.netlify.com"
+languageCode = "en_US"
+title = "U-SOFT Computer & Technologys"
+theme = "timer-hugo"
+keywords = ""
+description = "Small retail shops are unusually vulnerable to security breaches and shrinkage. Retail businesses are always a target for theft, but independent retailers may not have as much capital to invest in security. The good news? You don’t need to spend a fortune to secure your business. We have the solutions that can beef up your security!"
+# Replace icons from this site - https://ionicons.com/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "Products"
+        url     = "/products"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Services"
+        url     = "/services"
+        weight  = 3
+    [[menu.nav]]
+        name    = "Blog"
+        url     = "/blog"
+        weight  = 4
+    [[menu.nav]]
+        name    = "About"
+        url     = "/about"
+        weight  = 5
+    [[menu.nav]]
+        name    = "Contact"
+        url     = "/contact"
+        weight  = 6
+
+# Site Params
+[params]
+    home = "Home"
+    logo = "images/logo.svg"
+    dateFormat = "6 September 2018"
+    author = "Peranakan Francis"
+    copyright = "U-SOFT Computer & Technologys"
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/slider.jpg"
+        heading = "3 ways to secure your business"
+        description = "Small retail shops are unusually vulnerable to security breaches and shrinkage. Retail businesses are always a target for theft, but independent retailers may not have as much capital to invest in security. The good news? You don’t need to spend a fortune to secure your business. We have the solutions that can beef up your security!"
+        btn     = true
+        btnText = "Secure my business today"
+        btnURL  = "/products"
+        [[params.banner.flipText]]
+            title   = "Counterfait Money Detector"
+        [[params.banner.flipText]]
+            title   = "Bill Counting Machine"
+        [[params.banner.flipText]]
+            title   = "Metal Detector"
+
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "ABOUT ME"
+        content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+        image   = "images/about/about.jpg"
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "SO WHAT YOU THINK ?"
+        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+        btnText = "Contact with me"
+        btnURL  = "/contact"
+
+    # Portfolio Section On Homepage
+    [params.portfolio]
+        enable  = true
+        title   = "Latest Works"
+        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+    # Feature Product Section
+    [params.featureProduct]
+        enable  = true
+        title   = "SOME OF OUR FEATURES WORKS"
+        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
